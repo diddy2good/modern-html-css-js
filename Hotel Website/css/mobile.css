@@ -1,0 +1,73 @@
+/* UTILITY CLASSES */
+
+.l-heading{
+  text-align: center;
+}
+
+/* NAVIGATION */
+
+#navbar .logo{
+  float: none;
+  text-align: center;
+}
+
+#navbar ul, #navbar ul li{
+  float: none;
+}
+
+#navbar ul li a{
+  padding: 5px;
+  border-bottom: #444 dotted 1px;
+}
+
+/* SHOWCASE */
+
+#showcase{
+  height: auto;
+}
+
+#showcase .showcase-content{
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+/* HOME INFO */
+
+#home-info{
+  height: auto;
+}
+
+#home-info .info-img{
+  display: none;
+}
+
+#home-info .info-content{
+  float: none;
+  width: 100%;
+  height: auto;
+}
+
+/* FEATURES */
+
+.box{
+  float: none;
+  width: 100%;
+}
+
+/* ABOUT INFO */
+
+#about-info .info-right,
+#about-info .info-left{
+  float: none;
+  width: 100%;
+}
+
+#about-info .info-right{
+  margin-top: 30px;
+}
+
+/* CONTACT */
+
+#contact-info .box{
+  border-bottom: #444 dotted 1px;
+}
