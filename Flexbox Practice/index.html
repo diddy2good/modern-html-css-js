@@ -4,23 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Flexbox Practice</title>
+  <title>Flex Align</title>
   <style>
     #container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      background: #555;
+      height: 600px;
+      align-items: center;
+      align-content: center;
     }
-  .item{
-    background: #f4f4f4;
-    border: #ccc solid 1px;
-    padding: 1rem;
-    text-align: center;
-  }
+    .item{
+      background: #f4f4f4;
+      border: #ccc solid 1px;
+      padding: 1rem;
+      text-align: center;
+      margin: 0.5rem;
+      flex-basis: 100px;
+    }
   </style>
 </head>
 <body>
   <div id="container">
-    <div class="item"><h3>Item 1</h3></div>
-    <div class="item"><h3>Item 2</h3></div>
-    <div class="item"><h3>Item 3</h3></div>
+    <div class="item item-1"><h3>Item 1</h3></div>
+    <div class="item item-2"><h3>Item 2</h3></div>
+    <div class="item item-3"><h3>Item 3</h3></div>
   </div>
 </body>
 </html>
